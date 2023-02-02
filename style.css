@@ -1,6 +1,137 @@
 .container {
   max-width: 1440px;
-  height: 100vh;
+  height: 900px;
   margin: 0 auto;
   background-color: #e0e8ff;
+  position: relative;
+}
+.section {
+  width: 450px;
+  height: 697px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+.section1 {
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}
+h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1f2e55;
+}
+p {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+  width: 354px;
+  height: 78px;
+}
+.div2 {
+  display: inline-block;
+}
+button {
+  background-color: #382ae1;
+  width: 354px;
+  height: 50px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  border: none;
+  color: #ffffff;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
+h4 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+}
+.div1 {
+  background-color: #f7f9ff;
+  max-width: 354px;
+  width: 90%;
+  height: 98px;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+h3 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+span {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+  margin-left: 50px;
+}
+.div2 {
+  margin-left: 15px;
+}
+@media (max-width: 376px) {
+  .foni {
+    position: absolute;
+    width: 639.27px;
+    height: 194px;
+    left: -131.81px;
+    top: 0px;
+    overflow: hidden;
+  }
+  .section {
+    width: 327px;
+  }
+  button {
+    width: 279px;
+  }
+  .foni1 {
+    width: 327px;
+  }
+  .container {
+    overflow: hidden;
+  }
+  p {
+    width: 263px;
+    height: 75px;
+  }
 }
